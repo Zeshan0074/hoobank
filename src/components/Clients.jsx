@@ -2,7 +2,7 @@ import {clients} from '../Constants/index'
 import styles from '../style'
 
 const Clients = () => (
-  <section className={`${styles.flexCenter} my-4`}>
+  <section data-aos="zoom-out-left" className={`${styles.flexCenter} my-4`}>
     <div className={`${styles.flexCenter} flex-wrap w-full`}>
       {clients.map(client => (
         <div

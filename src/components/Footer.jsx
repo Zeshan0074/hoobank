@@ -46,6 +46,7 @@ const Footer = () => (
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white opacity-25">
         Copyright Ⓒ 2022 HooBank. All Rights Reserved.
       </p>
+      <p className='text-white opacity-25'>Made by Muhammad Zeshan</p>
 
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, index) => (
@@ -56,7 +57,7 @@ const Footer = () => (
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
               index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'
             }`}
-            onClick={() => window.open(social.link)}
+            // onClick={() => window.open(social.link)}
           />
         ))}
       </div>
